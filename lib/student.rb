@@ -80,7 +80,6 @@ class Student
     SQL
 
     DB[:conn].execute(sql, X)
-    end
   end
 
   def self.find_by_name(name)
